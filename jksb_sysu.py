@@ -23,8 +23,8 @@ def login():
     netid = os.environ['NETID']
     password = os.environ['PASSWORD']
     
-    print(netid)
-    print(password)
+#     print(netid)
+#     print(password)
 
     print("输入用户名密码")
     driver.find_element(By.XPATH, '//*[@id="username"]').send_keys(netid)
